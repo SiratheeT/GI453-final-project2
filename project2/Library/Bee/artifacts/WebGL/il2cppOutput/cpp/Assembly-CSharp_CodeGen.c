@@ -1,0 +1,134 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void ColliisionForPlayer_OnTriggerEnter2D_m649FB9DA6D1B428C699D95AEB900129DCFB0FFE8 (void);
+extern void ColliisionForPlayer__ctor_m210DD69568D79FB5120EDB94B935B6F5DD9283A9 (void);
+extern void CollisionObject_OnTriggerEnter2D_m26A2A8764E0FCFFC429AA077FC49C504CED4ED34 (void);
+extern void CollisionObject__ctor_m66ABD2F61376773C011238963400D53B5104523B (void);
+extern void Finish_OnTriggerEnter2D_mAF84A22C805B5AAEB35D9EC57EA28D44CA8226C8 (void);
+extern void Finish__ctor_m1C22870293D937B3091D24E0C0EB27B7DF08B48B (void);
+extern void FinishCOlloision_OnTriggerEnter_m9EF8D1DB850BF179859180C6267F4A4B6CC64A71 (void);
+extern void FinishCOlloision__ctor_mA66C557F92D24021E8B8C832C3EEA496245AE016 (void);
+extern void GameManager_callSceneMainGame_mD7D2341D11923DA7ACF16C804AFE5BEEB2F7C703 (void);
+extern void GameManager_callSceneCredits_m5DDF3CE365205B14BDDF9D15C34476923B7FB88B (void);
+extern void GameManager_callSceneMenu_m7AB83C6E73C762C4B56440B06B1333292061287B (void);
+extern void GameManager_callExitApp_mF61296E779E50CDCF00FC8FFA102AB8A0F611A3B (void);
+extern void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (void);
+extern void PlayerControl_Start_mFADBD79243A6B6984704BCCACC7320F96F4D34C7 (void);
+extern void PlayerControl_Update_m3A67C6EE4E8A895323A173E7D58C82ECC002C428 (void);
+extern void PlayerControl_Shoot_m9C31EC9F62C3633AC96444C53D1FD4234FF6B456 (void);
+extern void PlayerControl_EnableJumpAfterCooldown_mF8ED57C49DE3C39E8B2A7DB7B4861F3466493700 (void);
+extern void PlayerControl__ctor_m2B3A599A61BE9CCA98820EB2390E965CBE920915 (void);
+extern void U3CEnableJumpAfterCooldownU3Ed__11__ctor_mE44DD326D4B159E4628C62A0FEAA341BE8BEE765 (void);
+extern void U3CEnableJumpAfterCooldownU3Ed__11_System_IDisposable_Dispose_mB756C5A337272BD555E8932F0FFB51CF33A08ABE (void);
+extern void U3CEnableJumpAfterCooldownU3Ed__11_MoveNext_mC17CDD78A19CC4AC48A668B4EB295A7A262F54A2 (void);
+extern void U3CEnableJumpAfterCooldownU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA1894D9F34BAECCB30F8D36DF48FEF4910B31762 (void);
+extern void U3CEnableJumpAfterCooldownU3Ed__11_System_Collections_IEnumerator_Reset_m87931C661356C80EF0C1019B8A93F51032560E26 (void);
+extern void U3CEnableJumpAfterCooldownU3Ed__11_System_Collections_IEnumerator_get_Current_m068F8C813BDC1C6C0CF41EC7464AEFB484FFDD84 (void);
+extern void ScoreUI_Update_mDD5EDCB72E1EE85D7016F18E74B493C88B9DF92E (void);
+extern void ScoreUI__ctor_m4B5951252F3A98C676CFF9796A610D01F1B536A2 (void);
+extern void ShootingProjectile_Update_mB492E4C25D212E97A17A8FE715E25501B5BF8ED6 (void);
+extern void ShootingProjectile_CalculateProjectile_mF02F5BF718A5E09D09F7915FB238874D16214490 (void);
+extern void ShootingProjectile__ctor_mB3B10D0E79EA4841F424C1CFA2563C8D9F67C861 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[31] = 
+{
+	ColliisionForPlayer_OnTriggerEnter2D_m649FB9DA6D1B428C699D95AEB900129DCFB0FFE8,
+	ColliisionForPlayer__ctor_m210DD69568D79FB5120EDB94B935B6F5DD9283A9,
+	CollisionObject_OnTriggerEnter2D_m26A2A8764E0FCFFC429AA077FC49C504CED4ED34,
+	CollisionObject__ctor_m66ABD2F61376773C011238963400D53B5104523B,
+	Finish_OnTriggerEnter2D_mAF84A22C805B5AAEB35D9EC57EA28D44CA8226C8,
+	Finish__ctor_m1C22870293D937B3091D24E0C0EB27B7DF08B48B,
+	FinishCOlloision_OnTriggerEnter_m9EF8D1DB850BF179859180C6267F4A4B6CC64A71,
+	FinishCOlloision__ctor_mA66C557F92D24021E8B8C832C3EEA496245AE016,
+	GameManager_callSceneMainGame_mD7D2341D11923DA7ACF16C804AFE5BEEB2F7C703,
+	GameManager_callSceneCredits_m5DDF3CE365205B14BDDF9D15C34476923B7FB88B,
+	GameManager_callSceneMenu_m7AB83C6E73C762C4B56440B06B1333292061287B,
+	GameManager_callExitApp_mF61296E779E50CDCF00FC8FFA102AB8A0F611A3B,
+	GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368,
+	PlayerControl_Start_mFADBD79243A6B6984704BCCACC7320F96F4D34C7,
+	PlayerControl_Update_m3A67C6EE4E8A895323A173E7D58C82ECC002C428,
+	PlayerControl_Shoot_m9C31EC9F62C3633AC96444C53D1FD4234FF6B456,
+	PlayerControl_EnableJumpAfterCooldown_mF8ED57C49DE3C39E8B2A7DB7B4861F3466493700,
+	PlayerControl__ctor_m2B3A599A61BE9CCA98820EB2390E965CBE920915,
+	U3CEnableJumpAfterCooldownU3Ed__11__ctor_mE44DD326D4B159E4628C62A0FEAA341BE8BEE765,
+	U3CEnableJumpAfterCooldownU3Ed__11_System_IDisposable_Dispose_mB756C5A337272BD555E8932F0FFB51CF33A08ABE,
+	U3CEnableJumpAfterCooldownU3Ed__11_MoveNext_mC17CDD78A19CC4AC48A668B4EB295A7A262F54A2,
+	U3CEnableJumpAfterCooldownU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA1894D9F34BAECCB30F8D36DF48FEF4910B31762,
+	U3CEnableJumpAfterCooldownU3Ed__11_System_Collections_IEnumerator_Reset_m87931C661356C80EF0C1019B8A93F51032560E26,
+	U3CEnableJumpAfterCooldownU3Ed__11_System_Collections_IEnumerator_get_Current_m068F8C813BDC1C6C0CF41EC7464AEFB484FFDD84,
+	ScoreUI_Update_mDD5EDCB72E1EE85D7016F18E74B493C88B9DF92E,
+	ScoreUI__ctor_m4B5951252F3A98C676CFF9796A610D01F1B536A2,
+	ShootingProjectile_Update_mB492E4C25D212E97A17A8FE715E25501B5BF8ED6,
+	ShootingProjectile_CalculateProjectile_mF02F5BF718A5E09D09F7915FB238874D16214490,
+	ShootingProjectile__ctor_mB3B10D0E79EA4841F424C1CFA2563C8D9F67C861,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[31] = 
+{
+	3952,
+	4905,
+	3952,
+	4905,
+	3952,
+	4905,
+	3952,
+	4905,
+	4905,
+	4905,
+	4905,
+	4905,
+	4905,
+	4905,
+	4905,
+	4905,
+	4803,
+	4905,
+	3926,
+	4905,
+	4722,
+	4803,
+	4905,
+	4803,
+	4905,
+	4905,
+	4905,
+	1010,
+	4905,
+	7120,
+	4905,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	31,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
